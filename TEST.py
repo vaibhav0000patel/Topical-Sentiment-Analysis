@@ -8,8 +8,5 @@ example_tweets = [
 ]
 
 for tweet in example_tweets:
-    print ("")
-    print (tweet)
-    print ("")
-    print (classify.relatibility(tweet))
-    print ("")
+    print ("\n",tweet,"\n")
+    print (classify.relatibility(tweet),"\n")
