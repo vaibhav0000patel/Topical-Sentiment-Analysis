@@ -4,7 +4,10 @@ ML model that recognizes how much the text is related to data of a particular to
 ### How to use
 #### Step 1 : Install requirements in either Pyhton2 or Python3
 ```pip install -r requirements.txt```
-#### Step 2 : Download nltk_data
+#### Step 2 : Download nltk_data by executing the following commands in python console,
+```>>> import nltk```
+```>>> ltk.download('stopwords')```
+
 #### Step 3 : Execute TEST.py
 ```python TEST.py```
 
