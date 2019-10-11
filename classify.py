@@ -74,7 +74,7 @@ def prepareDocuments(datasetPath,documentsPath,datasetTweetsPath):
 
     else:
 
-        dataset = open(datasetPath,"r").read()
+        dataset = open(datasetPath,"r",encoding='utf8').read()
         documents = []
         datasetTweets = []
 
