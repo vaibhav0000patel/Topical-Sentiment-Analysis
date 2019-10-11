@@ -8,4 +8,8 @@ ML model that recognises how much the text is related to data of a particular to
 #### Step 3 : Execute TEST.py
 ```python TEST.py```
 
-Note: If you are switching from python2 to python3 or vice versa, You need to delete all the .pickle files from pickled_classifiers and pickled_data.
+You can change the ```datasetPath``` according to your dataset filename and location from ```path.py``` .
+
+You can also change the data processing flow of ```prepareDocuments(datasetPath,documentsPath,datasetTweetsPath)``` in ```classify.py```.
+
+Note: If you are switching from python2 to python3 or vice versa, You need to delete all the ```.pickle``` files from pickled_classifiers and pickled_data.
