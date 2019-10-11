@@ -1,5 +1,5 @@
 # Topical-Sentiment-Analysis
-ML model that recognises how much the text is related to data of a particular topic which the model is trained with. Modular structure of the code makes it easier to understand and modify it.
+ML model that recognizes how much the text is related to data of a particular topic which the model is trained with. Modular structure of the code makes it easier to understand and modify it.
 
 ### How to use
 #### Step 1 : Install requirements in either Pyhton2 or Python3
