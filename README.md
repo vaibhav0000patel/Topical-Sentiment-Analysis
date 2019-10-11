@@ -12,4 +12,4 @@ You can change the ```datasetPath``` according to your dataset filename and loca
 
 You can also change the data processing flow of ```prepareDocuments(datasetPath,documentsPath,datasetTweetsPath)``` in ```classify.py```.
 
-Note: If you are switching from python2 to python3 or vice versa, You need to delete all the ```.pickle``` files from pickled_classifiers and pickled_data.
+Note: If you are switching from python2 to python3 or vice versa, You need to delete all the ```.pickle``` files from pickled_classifiers and pickled_data. Then, execute TEST.py again.
