@@ -9,7 +9,7 @@ ML model that recognizes how much the text is related to data of a particular to
 #### Step 2 : Download nltk_data by executing the following commands in python console,
 ```python
 >>> import nltk
->>> ltk.download('stopwords')
+>>> nltk.download('stopwords')
 ```
 
 #### Step 3 : Execute TEST.py
