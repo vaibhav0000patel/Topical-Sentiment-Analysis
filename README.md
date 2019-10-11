@@ -2,11 +2,15 @@
 ML model that recognizes how much the text is related to data of a particular topic which the model is trained with. Modular structure of the code makes it easier to understand and modify it. Here, the model classify the text if it is crime related or not.
 
 ### How to use
+
 #### Step 1 : Install requirements in either Pyhton2 or Python3
 ```pip install -r requirements.txt```
+
 #### Step 2 : Download nltk_data by executing the following commands in python console,
-```>>> import nltk```
-```>>> ltk.download('stopwords')```
+```python
+>>> import nltk
+>>> ltk.download('stopwords')
+```
 
 #### Step 3 : Execute TEST.py
 ```python TEST.py```
